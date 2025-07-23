@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn import datasets
 
-
+#hello
 #1 Importation du DataSet
 dataset = datasets.load_iris()
 #print(dataset)
