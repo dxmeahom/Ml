@@ -25,9 +25,9 @@ for k in K_range:
     model = KMeans(n_clusters=k).fit(df)
     inertia.append(model.inertia_)
 plt.plot(K_range, inertia)
-plt.title('LA Méthode ELBLOW')
-plt.xlabel('nombre de clusters')
-plt.ylabel('Cout du modele')
+plt.title('ELBLOW Method')
+plt.xlabel('Number of clusters')
+plt.ylabel('Cost of the model')
 plt.show()
 
 
